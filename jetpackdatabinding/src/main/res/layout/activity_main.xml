@@ -25,6 +25,7 @@
                     android:textAppearance="@android:style/TextAppearance.Large"
 
                     />
+
             <Button
                     android:id="@+id/btn_2"
                     android:layout_width="match_parent"
@@ -34,6 +35,7 @@
                     android:textAppearance="@android:style/TextAppearance.Large"
 
                     />
+
             <Button
                     android:id="@+id/btn_3"
                     android:layout_width="match_parent"
@@ -43,12 +45,33 @@
                     android:textAppearance="@android:style/TextAppearance.Large"
 
                     />
+
             <Button
                     android:id="@+id/btn_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="16dp"
                     android:text="单向数据绑定--Map"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+
+                    />
+
+            <Button
+                    android:id="@+id/btn_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="单向数据绑定--ArrayList"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+
+                    />
+
+            <Button
+                    android:id="@+id/btn_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="单向数据绑定--对象"
                     android:textAppearance="@android:style/TextAppearance.Large"
 
                     />

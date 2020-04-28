@@ -9,6 +9,8 @@ import com.dingmouren.jetpackdatabinding.ex1.Ex1Activity
 import com.dingmouren.jetpackdatabinding.ex2.Ex2Activity
 import com.dingmouren.jetpackdatabinding.ex3.Ex3Activity
 import com.dingmouren.jetpackdatabinding.ex4.Ex4Activity
+import com.dingmouren.jetpackdatabinding.ex5.Ex5Activity
+import com.dingmouren.jetpackdatabinding.ex6.Ex6Activity
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,5 +23,7 @@ class MainActivity : AppCompatActivity() {
         binding.btn2.setOnClickListener { startActivity(Intent(this, Ex2Activity::class.java)) }
         binding.btn3.setOnClickListener { startActivity(Intent(this, Ex3Activity::class.java)) }
         binding.btn4.setOnClickListener { startActivity(Intent(this, Ex4Activity::class.java)) }
+        binding.btn5.setOnClickListener { startActivity(Intent(this, Ex5Activity::class.java)) }
+        binding.btn6.setOnClickListener { startActivity(Intent(this, Ex6Activity::class.java)) }
     }
 }

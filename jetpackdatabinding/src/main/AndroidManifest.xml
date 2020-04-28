@@ -9,7 +9,9 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".ex4.Ex4Activity"></activity>
+        <activity android:name=".ex6.Ex6Activity"></activity>
+        <activity android:name=".ex5.Ex5Activity" />
+        <activity android:name=".ex4.Ex4Activity" />
         <activity android:name=".ex3.Ex3Activity" />
         <activity android:name=".ex1.Ex1Activity" />
         <activity android:name=".ex2.Ex2Activity" />
