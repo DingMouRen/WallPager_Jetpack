@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".ex6.Ex6Activity">
+        xmlns:tools="http://schemas.android.com/tools">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <data>
+        <import type="com.dingmouren.jetpackdatabinding.ex6.Ex6Activity"/>
+        <variable
+                name="ex6Activity"
+                type="Ex6Activity" />
+
+    </data>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ex6.Ex6Activity"
+            android:orientation="vertical"
+            >
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="16dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:text='@{"姓名:"+ex6Activity.ex6.name+",\n年龄:"+ex6Activity.ex6.age}'
+                />
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:text="年龄加1"
+                android:onClick="onClick"
+                android:layout_margin="16dp"
+                />
+    </LinearLayout>
+</layout>
