@@ -4,10 +4,12 @@
         xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <import type="com.dingmouren.jetpackdatabinding.model.Student"/>
+        <import type="com.dingmouren.jetpackdatabinding.ex1.Ex1Model"/>
+
         <variable
                 name="student"
-                type="Student" />
+                type="com.dingmouren.jetpackdatabinding.ex1.Ex1Model" />
+
 
     </data>
 
@@ -15,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            tools:context=".ui.Ex1Activity"
+            tools:context=".ex1.Ex1Activity"
             android:gravity="center"
             >
             <TextView
@@ -36,5 +38,6 @@
                 android:text="@{student.age}"
                 android:textSize="40sp"
                 />
+
     </LinearLayout>
 </layout>

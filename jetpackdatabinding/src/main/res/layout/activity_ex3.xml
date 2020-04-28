@@ -4,10 +4,10 @@
         xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <import type="com.dingmouren.jetpackdatabinding.ex2.Ex2Model"/>
+        <import type="com.dingmouren.jetpackdatabinding.ex3.Ex3Model"/>
         <variable
-                name="ex2"
-                type="Ex2Model" />
+                name="ex3"
+                type="Ex3Model" />
 
     </data>
 
@@ -19,7 +19,7 @@
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text='@{"姓名："+ex2.name + ",年龄："+Integer.toString(ex2.age)}'
+                android:text='@{"姓名："+ex3.name + ",年龄："+Integer.toString(ex3.age)}'
                 android:textSize="20sp"
                 android:layout_marginTop="16dp"
                 android:textAppearance="@android:style/TextAppearance.Large"
@@ -27,7 +27,7 @@
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text='@{ex2.age > 18 ? ex2.name +"成年了":ex2.name+"未成年"}'
+                android:text='@{ex3.age > 18 ? ex3.name +"成年了":ex3.name+"未成年"}'
                 android:textSize="20sp"
                 android:layout_marginTop="16dp"
                 android:textAppearance="@android:style/TextAppearance.Large"
@@ -45,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="年龄加1"
+                android:text="增加1"
                 android:onClick="onClick"
                 />
     </LinearLayout>
