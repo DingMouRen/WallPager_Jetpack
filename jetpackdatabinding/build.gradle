@@ -41,4 +41,5 @@ dependencies {
     implementation 'androidx.databinding:databinding-common:3.6.3'
     implementation 'androidx.databinding:databinding-runtime:3.6.3'
     implementation 'androidx.databinding:databinding-adapters:3.6.3'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha02'
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+                name="ex7"
+                type="com.dingmouren.jetpackdatabinding.ex7.Ex7Model" />
+    </data>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_margin="16dp"
+            android:text='@{"名字:"+ex7.name}'
+            android:textSize="20sp">
+
+    </TextView>
+</layout>

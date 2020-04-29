@@ -75,6 +75,33 @@
                     android:textAppearance="@android:style/TextAppearance.Large"
 
                     />
+            <Button
+                    android:id="@+id/btn_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="ViewStub的使用"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+
+                    />
+            <Button
+                    android:id="@+id/btn_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="双向绑定"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+
+                    />
+            <Button
+                    android:id="@+id/btn_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="RecyclerView中的使用"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+
+                    />
         </LinearLayout>
 
     </ScrollView>
