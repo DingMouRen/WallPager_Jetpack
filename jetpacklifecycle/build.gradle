@@ -23,6 +23,11 @@ android {
         }
     }
 
+    //引入对 DataBinding 的支持
+    dataBinding {
+        enabled = true
+    }
+
 }
 
 dependencies {
@@ -39,11 +44,12 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-common:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0' // Saved stat module for ViewModel
     implementation 'androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0'
-    implementation 'androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0' //optional - ReactiveStreams support for LiveData
+    implementation 'androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0'
+    //optional - ReactiveStreams support for LiveData
     implementation 'androidx.lifecycle:lifecycle-service:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-process:2.2.0'
-    implementation 'androidx.lifecycle:lifecycle-compiler:2.2.0' // Annotation processor
-
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.2.0' // Annotation processor
 
 
     testImplementation 'junit:junit:4.12'
