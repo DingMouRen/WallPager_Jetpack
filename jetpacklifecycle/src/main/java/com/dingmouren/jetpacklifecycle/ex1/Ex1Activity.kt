@@ -18,6 +18,7 @@ class Ex1Activity : AppCompatActivity() {
 
         lifecycle.addObserver(Ex1LifecycleObserver(stringBuilder,tv))
 
+
         stringBuilder.append(tag + "--onCreate\n")
     }
 
