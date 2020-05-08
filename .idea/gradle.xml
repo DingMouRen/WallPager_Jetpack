@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/jetpackdatabinding" />
             <option value="$PROJECT_DIR$/jetpacklifecycle" />
+            <option value="$PROJECT_DIR$/jetpacklivedata" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
