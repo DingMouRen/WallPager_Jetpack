@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/jetpackpaging" />
             <option value="$PROJECT_DIR$/jetpackroom" />
             <option value="$PROJECT_DIR$/jetpackviewmodel" />
+            <option value="$PROJECT_DIR$/jetpackworkmanager" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
